@@ -1,1 +1,1 @@
-# ollama-libraries-example
+# Ollama Python & Javascript Libraries Example
