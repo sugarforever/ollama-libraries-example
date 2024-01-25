@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ollama-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["sugarforever <william.1022@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.30.0"
+ollama = "^0.1.4"
+openai = "^1.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
