@@ -1,6 +1,10 @@
-# Nuxt 3 Minimal Starter
+# Chat Ollama
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a Nuxt 3 + Ollama web application. It's an example of Ollama Javascript library.
+
+Feature list:
+- Models management (list, download, delete)
+- Chat with models
 
 ## Setup
 
@@ -20,6 +24,12 @@ yarn install
 bun install
 ```
 
+## Ollama Server
+
+You will need an Ollama server running. You can run it in local environment following the installation guide of [Ollama](https://github.com/ollama/ollama).
+
+By default, Ollama server is running on http://localhost:11434.
+
 ## Development Server
 
 Start the development server on `http://localhost:3000`:
@@ -37,39 +47,3 @@ yarn dev
 # bun
 bun run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
